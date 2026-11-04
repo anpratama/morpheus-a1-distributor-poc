@@ -14,7 +14,6 @@ mainnet RPC endpoint (the fork is pinned to a historical block; a
 non-archive node cannot serve its state).
 
 ```bash
-cd poc/filing-A1
 ETH_RPC_URL=<your archive RPC endpoint> forge test
 ```
 
